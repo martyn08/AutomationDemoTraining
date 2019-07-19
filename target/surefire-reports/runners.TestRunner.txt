@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.769 s <<< FAILURE! - in runners.TestRunner
+feature(runners.TestRunner)  Time elapsed: 5.069 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="tool-2" name="tool" style="font-size: 14px; margin: 0px; padding: 0px; vertical-align: baseline;" type="checkbox" value="Selenium Webdriver"> is not clickable at point (357, 797). Other element would receive the click: <span class="cookie-choices-text">...</span>
+  (Session info: chrome=75.0.3770.142)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AG89RSG', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\BIDEMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e10ea80ee553ec349c5b884cf7bc9a60
+	at runners.TestRunner.feature(TestRunner.java:30)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input id="tool-2" name="tool" style="font-size: 14px; margin: 0px; padding: 0px; vertical-align: baseline;" type="checkbox" value="Selenium Webdriver"> is not clickable at point (357, 797). Other element would receive the click: <span class="cookie-choices-text">...</span>
+  (Session info: chrome=75.0.3770.142)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AG89RSG', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\BIDEMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e10ea80ee553ec349c5b884cf7bc9a60
+

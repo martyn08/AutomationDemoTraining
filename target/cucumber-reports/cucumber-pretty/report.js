@@ -1,0 +1,237 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("AutomationDemoTraining.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Google Search",
+  "description": "As a web user\r\nI want to be able to register\r\nSo that I can access the job site",
+  "id": "google-search",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@GoogleSearch"
+    },
+    {
+      "line": 1,
+      "name": "@test"
+    }
+  ]
+});
+formatter.scenario({
+  "line": 7,
+  "name": "Web account registration",
+  "description": "",
+  "id": "google-search;web-account-registration",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 8,
+  "name": "i\u0027m on registration page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "i enter my \"First name\" in the text boxes",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "i enter my \"Last name\" in the text boxes",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "i click on \"check boxes\" to confirm my sex my gender",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "i click on \"radio button\" to confirm my Years of Experience",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "i enter \"Date\" on date picker",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "i click on \"check boxes\" to confirm my Profession",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "i click to confirm Checkbox to confirm \"Selenium Webdriver\" i\u0027ve used",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "i click on \"continents\" on multi select box to choose where i\u0027m from",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "i clicked on \"commands\" i use in selenium",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 18,
+  "name": "i click on \"choose file\" to upload image",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 19,
+  "name": "i click to \"Download link\" to upload my file",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 20,
+  "name": "i click on submit button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "AutomationDemoTrainingSteps.i_m_on_registration_page()"
+});
+formatter.result({
+  "duration": 4411868892,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "First name",
+      "offset": 12
+    }
+  ],
+  "location": "AutomationDemoTrainingSteps.i_enter_my_in_the_text_boxes(String)"
+});
+formatter.result({
+  "duration": 134591934,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Last name",
+      "offset": 12
+    }
+  ],
+  "location": "AutomationDemoTrainingSteps.i_enter_my_in_the_text_boxes(String)"
+});
+formatter.result({
+  "duration": 91922864,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "check boxes",
+      "offset": 12
+    }
+  ],
+  "location": "AutomationDemoTrainingSteps.i_click_on_to_confirm_my_sex_my_gender(String)"
+});
+formatter.result({
+  "duration": 50699127,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "radio button",
+      "offset": 12
+    }
+  ],
+  "location": "AutomationDemoTrainingSteps.i_click_on_to_confirm_my_Years_of_Experience(String)"
+});
+formatter.result({
+  "duration": 41801677,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Date",
+      "offset": 9
+    }
+  ],
+  "location": "AutomationDemoTrainingSteps.i_enter_on_date_picker(String)"
+});
+formatter.result({
+  "duration": 66885786,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "check boxes",
+      "offset": 12
+    }
+  ],
+  "location": "AutomationDemoTrainingSteps.i_click_on_to_confirm_my_Profession(String)"
+});
+formatter.result({
+  "duration": 58075608,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Selenium Webdriver",
+      "offset": 40
+    }
+  ],
+  "location": "AutomationDemoTrainingSteps.i_click_to_confirm_Checkbox_to_confirm_i_ve_used(String)"
+});
+formatter.result({
+  "duration": 48508583,
+  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput id\u003d\"tool-2\" name\u003d\"tool\" style\u003d\"font-size: 14px; margin: 0px; padding: 0px; vertical-align: baseline;\" type\u003d\"checkbox\" value\u003d\"Selenium Webdriver\"\u003e is not clickable at point (357, 797). Other element would receive the click: \u003cspan class\u003d\"cookie-choices-text\"\u003e...\u003c/span\u003e\n  (Session info: chrome\u003d75.0.3770.142)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-AG89RSG\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\\Users\\BIDEMI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: e10ea80ee553ec349c5b884cf7bc9a60\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepdefinition.AutomationDemoTrainingSteps.i_click_to_confirm_Checkbox_to_confirm_i_ve_used(AutomationDemoTrainingSteps.java:68)\r\n\tat ✽.And i click to confirm Checkbox to confirm \"Selenium Webdriver\" i\u0027ve used(AutomationDemoTraining.feature:15)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "continents",
+      "offset": 12
+    }
+  ],
+  "location": "AutomationDemoTrainingSteps.i_click_on_on_multi_select_box_to_choose_where_i_m_from(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "commands",
+      "offset": 14
+    }
+  ],
+  "location": "AutomationDemoTrainingSteps.i_clicked_on_i_use_in_selenium(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "choose file",
+      "offset": 12
+    }
+  ],
+  "location": "AutomationDemoTrainingSteps.i_click_on_to_upload_image(String)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({
+  "location": "AutomationDemoTrainingSteps.i_click_on_submit_button()"
+});
+formatter.result({
+  "status": "skipped"
+});
+});
